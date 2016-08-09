@@ -84,7 +84,7 @@ def importar_montadora():
     
     for i in arquivo.readlines():
         cadastro.append(eval(i))
-    print(cadastro)
+    
     return cadastro
     
 
